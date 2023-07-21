@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Menu de navegacion */
+
+/* .nav{
+    float: top;
+} */
+
+.listmenu{
+    list-style: none;
+    padding: 20px;
+    margin-left: 60%;
+}
+
+.listmenu > li{
+    display: inline-block;
+    text-align: center;
+} 
+
+li > a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+li > a:hover{
+    background: #312a7c;
+    opacity: 1;
+}
+
+/* Carrusel de imagenes */
+
+.contenItemsCarrusel{
+    height: 400px;
+    overflow: hidden;
+}
+
+.itemCarrusel{
+    height: 400px;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+}
+
+.flechasCarrusel{
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contpuntos{
+    display: flex;
+    justify-content: center;
+}
+
+.contpuntos > a {
+    font-size: 2.5em;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Seccion Buscador */ 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador{
+    position: relative;
+}
+
+input{
+    width:650px;
+    padding: 10px; 
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.img{
+    background-color: #fff;
+    position: absolute;
+    border: 0;
+    top: 0;
+    bottom: 0; 
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.img > img{
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+
+}
+
+/* Seccion sobre nosotros */ 
+
+.contenedorInfo{
+    padding: 3%;
+    text-align: justify;
+}
+
+.contenedorInfo > h1{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Seccion Servicios */
+
+.contenedorTarjetas{
+    padding: 3%;
+    display: flex;
+	color: black;
+	justify-content: center;
+}
+
+.Cards {
+    height: 250px;
+    width: 280px;
+    background-color: #fff;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 12px;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 1em; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Cards a {
+	color:black;
+}
+
+body {
+    background-image: linear-gradient(to top, #68bad3, #68bad3, #278dc0, #0f5da5, #312a7c);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./img/school.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tamanopara{
+    height: 600px;
+}
+   
+.tarjetaimg{
+	border-style: solid;
+    border-radius: 100%;
+    border-width: 4px;
+    border-color: #e9e9e9;
+	width: 100px;
+}
+
+.Cards p {
+    padding: 0 40px;
+}
+
+/* Sudpagina Tareas */
+
+button.btn-t {
+    width: 240px;
+    padding: 8px;
+    margin: 10px 0px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #d7d7d7;
+    background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+	border-style: solid;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button.btn-t:hover, button.btn-t.compl:hover {
+    background: #5a78c9;
+    color: white;
+}
+
+button.btn-t.compl {
+    background: linear-gradient(0deg, rgba(13,13,13,1) 0%, rgba(73,73,73,1) 100%);
+	color: white;
+}
+
+.trabajo p {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.contenedorTarjetas.trabajo {
+    padding: 10em;
+    margin-bottom: 5em;
+}
